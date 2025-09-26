@@ -1,70 +1,66 @@
+
+
+
+
+Built with ❤️ using Jekyll and hosted on GitHub Pages.
+=======
 # Sahi's Learning Blog
 
-A personal blog where I share what I learn about Math, Programming, Data Science, Physics, Philosophy, Sociology, and sometimes politics in Ivory Coast.
+Bienvenue sur le dépôt GitHub de mon blog personnel. Ce blog est conçu pour partager mes pensées, expériences et connaissances sur divers sujets qui me passionnent.
 
 🌐 **Live Site**: [https://sahi-mfg.github.io](https://sahi-mfg.github.io)
 
-## About This Blog
 
-This Jekyll-powered blog covers diverse topics across:
+## Contenu du blog
 
-- **Mathematics** - From fundamental concepts to advanced topics
-- **Programming** - Code tutorials, best practices, and project insights  
-- **Data Science** - Analytics, machine learning, and data visualization
-- **Physics** - Understanding the natural world through scientific principles
-- **Philosophy** - Deep thoughts on existence, ethics, and human nature
-- **Sociology** - Exploring society, culture, and human behavior
-- **Politics** - Perspectives on governance and social issues in Ivory Coast
+Le contenu de ce blog couvre une variété de sujets, notamment :
 
-## Features
+- Mathématiques et Physique
+- Technologie et programmation
+- Politique et géopolitique (avec un focus sur l'Afrique et la Côte d'Ivoire)
+- Ou tout autre sujet qui me passe par la tête.
 
-- ✅ Responsive Jekyll design using Minima theme
-- ✅ Category-based organization of posts
-- ✅ Professional styling with custom CSS
-- ✅ SEO optimization with jekyll-seo-tag
-- ✅ RSS feed support
-- ✅ GitHub Pages compatible
 
-## Writing New Posts
 
-To add a new post:
+## Contribuer
 
-1. Create a new file in `_posts/` following the naming pattern: `YYYY-MM-DD-title.md`
-2. Include front matter with layout, title, date, category, and author
-3. Use one of these categories: `mathematics`, `programming`, `datascience`, `physics`, `philosophy`, `sociology`, `politics`
+Si vous souhaitez contribuer à ce blog, n'hésitez pas à soumettre des propositions d'articles ou à partager vos idées. Je suis toujours ouvert aux collaborations et aux échanges d'idées.
+
+## Écrire de nouveaux Posts
+
+pour ajouter un nouveau post:
+
+1. Créer un nouveau fichier dans `_posts/` en suivant le modèle de nommage suivant: `YYYY-MM-DD-titre.md`
+2. Chaque article doit inclure un bloc d'en-tête, appelé "Front Matter", contenant les informations suivantes : layout, title, date, category et author.
+3. Vous devez utiliser l'une des catégories suivantes : maths (mathématiques), programming (programmation), data (data science ou data engineering), physique (physique), autres (pour les autres sujets)`
 
 Example front matter:
 ```yaml
 ---
 layout: post
-title: "Your Post Title"
-date: 2024-02-10 10:00:00 +0000
-category: mathematics
-author: Sahi MFG
+title: "Titre du post"
+date: 2025-09-26 10:00:00 +0000
+category: maths
+author: Sahi Mohamed Francis Gonsangbeu
 ---
 ```
 
-## Local Development
-
-To run locally:
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-The site will be available at `http://localhost:4000`
 
 ## Structure
 
-- `_config.yml` - Site configuration
+- `_config.yml` - configuration du site
 - `_layouts/` - Page templates
-- `_posts/` - Blog posts
+- `_posts/` - Les posts
 - `assets/css/` - Custom styling
 - `index.md` - Homepage
 - `about.md` - About page
-- `categories.md` - Posts organized by category
+- `categories.md` - Les posts organisés par catégories
 
 ---
 
-Built with ❤️ using Jekyll and hosted on GitHub Pages.
+## Contact
+
+Pour toute question ou suggestion, vous pouvez me contacter à l'adresse suivante : [mohamedfrancissahi@gmail.com](mailto:mohamedfrancissahi@gmail.com)
+
+Merci de votre visite et bonne lecture !
+
