@@ -8,6 +8,10 @@ author: Sahi MFG
 permalink: /posts/2025-09-26-En-vrai-c-est-quoi-une-seconde
 ---
 
+*Image de couverture :* [Pixabay - Horloge](https://pixabay.com/fr/photos/horloge-temps-horloge-murale-3249061/)
+
+
+
 
 # L'énigme du temps : La nature fascinante d'une seconde
 
@@ -80,4 +84,3 @@ Pour approfondir le sujet et vérifier les sources, voici quelques liens pertine
 
 ---
 
-*Image de couverture :* [Pixabay - Horloge](https://pixabay.com/fr/photos/horloge-temps-horloge-murale-3249061/)
