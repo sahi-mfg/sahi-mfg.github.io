@@ -29,6 +29,8 @@ L'apprentissage ne s'arrête jamais, et je crois que le savoir grandit lorsqu'il
 
 ## 🚀 Contenu Récent
 
+- [En vrai, c'est quoi une seconde? Comprendre l'unité de temps](https://sahi-mfg.github.io/posts/2025-09-26-En-vrai-c-est-quoi-une-seconde)
+
 Consultez mes derniers articles ci-dessous, ou naviguez par [catégorie](/categories) pour trouver les sujets qui vous intéressent le plus.
 
 ---

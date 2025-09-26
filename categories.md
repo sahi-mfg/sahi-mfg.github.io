@@ -2,8 +2,38 @@
 layout: page
 title: Categories
 permalink: /categories/
+---
 
-##  Categories
+# Browse by Category
+
+Explorez les posts organisés par différent domaines:
+
+{% assign categories = site.posts | map: 'category' | uniq | sort %}
+
+{% for category in categories %}
+  {% if category %}
+    <h2 id="{{ category | slugify }}">{{ category | upcase }}</h2>
+
+    {% assign category_posts = site.posts | where: 'category', category %}
+    <ul class="post-list">
+      {% for post in category_posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h3>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+---
+
+## Quick Links to Categories
 
 {% for category in categories %}
   {% if category %}
