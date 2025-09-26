@@ -1,0 +1,58 @@
+# Site Settings
+title: "Sahi's Learning Blog"
+email: your.email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A personal blog where I share what I learn about Math, Programming, Data Science, 
+  Physics, Philosophy, Sociology, and sometimes politics in Ivory Coast.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sahi-mfg.github.io" # the base hostname & protocol for your site
+twitter_username: sahi_mfg
+github_username: sahi-mfg
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Categories for the blog
+collections:
+  categories:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Timezone
+timezone: Africa/Abidjan
+
+# Author information
+author:
+  name: Sahi MFG
+  location: Ivory Coast
+  bio: "Passionate learner sharing insights on Math, Programming, Data Science, Physics, Philosophy, Sociology, and local politics."
+
+# Navigation
+header_pages:
+  - about.md
+  - categories.md
+
+# Social links
+social_links:
+  twitter: sahi_mfg
+  github: sahi-mfg
+  linkedin: # add your linkedin username if you have one
