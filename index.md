@@ -1,35 +1,36 @@
 ---
 layout: home
-title: "Welcome to My Learning Journey"
+title: "Bienvenue dans Mon Journal d'Apprentissage"
 ---
 
-# Hello, I'm Sahi! 👋
+# Hello, je suis Sahi ! 👋
 
-Welcome to my personal blog where I share what I learn across diverse fields of knowledge. As a curious learner from Ivory Coast, I explore and write about:
+Bienvenue sur mon blog personnel où je partage ce que j'apprends à travers divers domaines de la connaissance. En tant qu'apprenant curieux de Côte d'Ivoire, j'explore et j'écris sur :
 
-## 📚 What You'll Find Here
+## 📚 Ce que vous trouverez ici
 
-- **Mathematics** - From fundamental concepts to advanced topics
-- **Programming** - Code tutorials, best practices, and project insights  
-- **Data Science** - Analytics, machine learning, and data visualization
-- **Physics** - Understanding the natural world through scientific principles
-- **Philosophy** - Deep thoughts on existence, ethics, and human nature
-- **Sociology** - Exploring society, culture, and human behavior
-- **Local Politics** - Perspectives on governance and social issues in Ivory Coast
+- **Mathématiques** - Des concepts fondamentaux aux sujets avancés
+- **Programmation** - Tutoriels de code, bonnes pratiques et aperçus de projets
+- **Science des Données** - Analyse, apprentissage automatique (Machine Learning) et visualisation de données
+- **Physique** - Comprendre le monde naturel à travers les principes scientifiques
+- **Philosophie** - Réflexions profondes sur l'existence, l'éthique et la nature humaine
+- **Sociologie** - Exploration de la société, de la culture et du comportement humain
+- **Politique Locale** - Perspectives sur la gouvernance et les enjeux sociaux en Côte d'Ivoire
+- Et bien d'autres sujets
 
-## 🌟 My Mission
+## 🌟 Ma Mission
 
-Learning never stops, and I believe knowledge grows when shared. Through this blog, I aim to:
+L'apprentissage ne s'arrête jamais, et je crois que le savoir grandit lorsqu'il est partagé. À travers ce blog, mon but est de :
 
-- Document my learning journey across multiple disciplines
-- Share insights that might help fellow learners
-- Bridge different fields of knowledge to find connections
-- Contribute to intellectual discourse, especially from an African perspective
+- Documenter mon parcours d'apprentissage à travers plusieurs disciplines
+- Partager des idées qui pourraient aider d'autres apprenants
+- Faire le pont entre différents domaines de la connaissance pour trouver des connexions
+- Contribuer au discours intellectuel, particulièrement d'un point de vue africain
 
-## 🚀 Latest Content
+## 🚀 Contenu Récent
 
-Check out my recent posts below, or browse by [category](/categories) to find topics that interest you most.
+Consultez mes derniers articles ci-dessous, ou naviguez par [catégorie](/categories) pour trouver les sujets qui vous intéressent le plus.
 
 ---
 
-*Follow my journey as I explore the fascinating connections between science, technology, philosophy, and society. Every post is a step forward in understanding our complex world.*
+*Suivez mon parcours tandis que j'explore les liens fascinants entre la science, la technologie, la philosophie et la société. Chaque publication est un pas en avant dans la compréhension de notre monde complexe.*
