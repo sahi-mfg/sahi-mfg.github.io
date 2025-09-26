@@ -1,8 +1,3 @@
-
-
-
-
-
 # Sahi's Learning Blog
 
 Bienvenue sur le dépôt GitHub de mon blog personnel. Ce blog est conçu pour partager mes pensées, expériences et connaissances sur divers sujets qui me passionnent.
@@ -50,7 +45,7 @@ author: Sahi Mohamed Francis Gonsangbeu
 - `_config.yml` - configuration du site
 - `_layouts/` - Les templates
 - `_posts/` - Les posts
-- `assets/css/` - Style custom 
+- `assets/css/` - Style custom
 - `index.md` - Page d'accueil
 - `about.md` - Page à propos
 - `categories.md` - Les posts organisés par catégories
@@ -64,5 +59,3 @@ Pour toute question ou suggestion, vous pouvez me contacter à l'adresse suivant
 Merci de votre visite et bonne lecture !
 
 Built with ❤️ using Jekyll and hosted on GitHub Pages.
-=======
-
