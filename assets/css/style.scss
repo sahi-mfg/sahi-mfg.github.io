@@ -1,7 +1,4 @@
----
----
-
-@import "minima";
+--- --- @import "minima";
 
 /* Custom styles for Sahi's blog */
 
@@ -53,7 +50,8 @@ table {
   margin: 1em 0;
 }
 
-table th, table td {
+table th,
+table td {
   border: 1px solid #ddd;
   padding: 8px 12px;
   text-align: left;
@@ -95,7 +93,7 @@ a:hover {
     display: block;
     margin: 5px 0;
   }
-  
+
   table {
     font-size: 0.8em;
   }
@@ -134,7 +132,7 @@ a:hover {
   height: 300px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .post-list {
@@ -154,7 +152,7 @@ a:hover {
 }
 
 .post-list li:hover {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .post-category {
