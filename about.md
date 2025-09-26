@@ -4,45 +4,49 @@ title: About
 permalink: /about/
 ---
 
-# About Me
 
-Hi! I'm Sahi, a passionate learner and knowledge seeker based in Ivory Coast. This blog is my digital space where I share insights, discoveries, and reflections from my ongoing journey of learning.
 
-## My Learning Philosophy
+# À Propos de Moi
 
-I believe that knowledge is interconnected - insights from mathematics can illuminate philosophical questions, programming principles can help us understand social systems, and physics concepts can provide metaphors for personal growth. This blog reflects my multidisciplinary approach to learning.
+Bonjour ! Je suis **Sahi Mohamed Francis**, un passionné de connaissances et aussi data scientist de formation basé en **Côte d'Ivoire**. Ce blog est mon espace numérique où je partage les idées, les découvertes et les réflexions issues de mon parcours d'apprentissage continu.
 
-## What Drives Me
+## Ma Philosophie d'Apprentissage
 
-- **Curiosity** - An insatiable desire to understand how things work
-- **Connection** - Finding links between seemingly unrelated fields
-- **Community** - Sharing knowledge to help others learn and grow
-- **Context** - Bringing unique perspectives from my African heritage and experiences
+Je suis convaincu que le savoir est interconnecté : les éclairages des mathématiques peuvent éclairer des questions philosophiques, les principes de programmation peuvent nous aider à comprendre les systèmes sociaux, et les concepts de physique peuvent fournir des métaphores pour la croissance personnelle. Ce blog reflète mon approche **multidisciplinaire** de l'apprentissage.
 
-## Background
+## Ce Qui Me Motive
 
-I'm constantly exploring various fields of knowledge, from the logical structures of mathematics and programming to the complex dynamics of society and politics. My perspective is shaped by my experiences in Ivory Coast, bringing a unique viewpoint to global conversations about science, technology, and society.
+* **Curiosité** - Un désir insatiable de comprendre le fonctionnement des choses.
+* **Connexion** - Trouver des liens entre des domaines apparemment sans rapport.
+* **Communauté** - Partager le savoir pour aider les autres à apprendre et à grandir.
+* **Contexte** - Apporter des perspectives uniques issues de mon héritage et de mes expériences africaines.
 
-## Topics I Love to Explore
+## Mon Parcours
 
-- **STEM Fields**: Mathematics, Physics, Computer Science, Data Science
-- **Humanities**: Philosophy, Sociology, Political Science
-- **Technology**: Programming, AI/ML, Data Analysis
-- **Society**: Cultural dynamics, governance, social issues
-- **Personal Growth**: Learning methodologies, critical thinking
+J'ai une formation d'ingénieur en Mathématiques Appliquées et modélisation et une année d'expérience en tant que Data scientist.
 
-## My Writing Approach
+J'explore constamment divers domaines du savoir, allant des structures logiques des mathématiques et de la programmation aux dynamiques complexes de la société et de la politique. Ma perspective est façonnée par mes expériences en France et en Côte d'Ivoire, ce qui apporte un point de vue unique aux conversations mondiales sur la science, la technologie et la société.
 
-Each post is carefully researched and written to be accessible while maintaining depth. I aim to:
+## Sujets Que J'Aime Explorer
 
-- Break down complex concepts into understandable pieces
-- Provide real-world examples and applications
-- Share personal insights and lessons learned
-- Encourage critical thinking and further exploration
+* **Domaines Scientifique et Technologique** : Mathématiques, Physique, Informatique, Science des Données.
+* **Sciences Humaines** : Philosophie, Sociologie, Science Politique.
+* **Technologie** : Programmation, IA/ML (Intelligence Artificielle/Machine Learning), Analyse de Données.
+* **Société** : Dynamiques culturelles, gouvernance, questions sociales avec un focus sur l'Afrique et la Côte d'ivoire.
+* **Croissance Personnelle** : Méthodologies d'apprentissage, pensée critique.
 
-## Connect With Me
+## Mon Approche d'Écriture
 
-I'd love to hear from fellow learners, thinkers, and curious minds. Whether you want to discuss a post, share insights, or just say hello, feel free to reach out through the social links in the footer.
+Chaque article est soigneusement recherché et rédigé pour être **accessible** tout en maintenant sa **profondeur**. Mon objectif est de :
+
+* Décortiquer les concepts complexes en morceaux compréhensibles.
+* Fournir des exemples et des applications concrets.
+* Partager des réflexions personnelles et des leçons apprises.
+* Encourager la pensée critique et l'exploration continue.
+
+## Connecter Avec Moi
+
+J'aimerais beaucoup échanger avec d'autres apprenants, penseurs et esprits curieux. Que vous souhaitiez discuter d'un article, partager vos idées, ou simplement dire bonjour, n'hésitez pas à me contacter via les liens sociaux que vous trouverez dans le pied de page du site.
 
 ---
 
