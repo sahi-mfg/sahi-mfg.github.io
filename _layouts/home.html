@@ -14,24 +14,31 @@ layout: default
   <ul class="post-list">
     {%- assign posts = site.posts | sort: 'date' | reverse -%}
     {%- for post in posts limit: 5 -%}
-    <li>
-      {%- assign date_format = "%d %B %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      {%- if post.categories and post.categories != empty -%}
-      {%- for category in post.categories -%}
-      <span class="post-category">[{{ category | upcase }}]</span>
-      {%- endfor -%}
-      {%- elsif post.category -%}
-      <span class="post-category">[{{ post.category | upcase }}]</span>
+    <li style="display: flex; gap: 20px; align-items: flex-start; padding: 20px; border: 1px solid #eee; border-radius: 8px; margin-bottom: 20px;">
+      {%- if post.image -%}
+      <div style="flex: 0 0 200px;">
+        <img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title }}" style="width: 100%; height: 120px; object-fit: cover; border-radius: 6px;">
+      </div>
       {%- endif -%}
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if post.excerpt -%}
-      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      {%- endif -%}
+      <div style="flex: 1;">
+        {%- assign date_format = "%d %B %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        {%- if post.categories and post.categories != empty -%}
+        {%- for category in post.categories -%}
+        <span class="post-category" style="background: #007cba; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; margin-left: 10px;">[{{ category | upcase }}]</span>
+        {%- endfor -%}
+        {%- elsif post.category -%}
+        <span class="post-category" style="background: #007cba; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; margin-left: 10px;">[{{ post.category | upcase }}]</span>
+        {%- endif -%}
+        <h3 style="margin: 10px 0;">
+          <a class="post-link" href="{{ post.url | relative_url }}" style="text-decoration: none; color: #333;">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if post.excerpt -%}
+        <p style="color: #666; margin: 0;">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {%- endif -%}
+      </div>
     </li>
     {%- endfor -%}
   </ul>
