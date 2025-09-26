@@ -60,3 +60,50 @@ hr {
 .main-content h6 {
   color: #159957;
 }
+
+/* Ensure consistent styling across all pages */
+.main-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Navigation consistency */
+.main-content a {
+  color: #159957;
+  font-weight: 500;
+}
+
+/* List styling consistency */
+.main-content ul li,
+.main-content ol li {
+  margin-bottom: 0.5em;
+}
+
+/* Blockquotes styling */
+.main-content blockquote {
+  border-left: 4px solid #159957;
+  background: rgba(21, 153, 87, 0.05);
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Tables styling */
+.main-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.main-content th,
+.main-content td {
+  border: 1px solid #e1e4e8;
+  padding: 12px;
+  text-align: left;
+}
+
+.main-content th {
+  background: #159957;
+  color: white;
+  font-weight: 600;
+}
