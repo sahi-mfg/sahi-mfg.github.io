@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "En vrai, c'est quoi une seconde? Comprendre l'unité de temps"
-date: 2025-09-26 23:46:00 +0000
-categories: physique
+date: 2024-09-26 23:46:00 +0000
+categories: [physique]
 author: Sahi MFG
 excerpt: "Une exploration fascinante de la définition précise de la seconde et de son importance en physique moderne."
 ---

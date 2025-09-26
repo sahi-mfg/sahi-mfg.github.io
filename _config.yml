@@ -39,6 +39,9 @@ exclude:
 # Timezone
 timezone: Africa/Abidjan
 
+# Afficher les posts futurs (pour le développement)
+future: true
+
 # Author information
 author:
   name: Sahi Mohamed Francis Gonsangbeu

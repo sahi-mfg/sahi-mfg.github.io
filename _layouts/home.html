@@ -17,7 +17,11 @@ layout: default
       <li>
         {%- assign date_format = "%d %B %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {%- if post.category -%}
+        {%- if post.categories and post.categories != empty -%}
+          {%- for category in post.categories -%}
+            <span class="post-category">[{{ category | upcase }}]</span>
+          {%- endfor -%}
+        {%- elsif post.category -%}
           <span class="post-category">[{{ post.category | upcase }}]</span>
         {%- endif -%}
         <h3>
@@ -25,8 +29,8 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts or post.excerpt -%}
-          {{ post.excerpt | strip_html | truncatewords: 30 }}
+        {%- if post.excerpt -%}
+          <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
         {%- endif -%}
       </li>
       {%- endfor -%}
