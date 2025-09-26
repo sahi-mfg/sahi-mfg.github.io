@@ -22,7 +22,7 @@ En physique, la définition est, avouons-le, un peu intimidante : une seconde es
 
 Cette définition peut sembler complexe, un véritable charabia scientifique, mais elle illustre la précision extrême avec laquelle nous mesurons le temps.
 
----
+
 
 ## L'Atome de Césium : Le secret de la précision
 
@@ -30,7 +30,7 @@ Cette définition peut sembler complexe, un véritable charabia scientifique, ma
 
 La raison est que les atomes de césium ont des propriétés très **stables et prévisibles**, ce qui les rend idéaux pour les **horloges atomiques**. Ces horloges sont si précises qu'elles ne dévient que d'une seconde tous les 30 millions d'années ! Autant dire qu'elles ne risquent pas de vous faire arriver en retard !
 
----
+
 
 ## De la Terre aux Atomes : L'histoire d'une mesure
 
@@ -46,7 +46,7 @@ Avec l'avènement de la physique moderne et des technologies avancées, nous avo
 
 Sans une mesure précise du temps, ces technologies ne fonctionneraient pas correctement.
 
----
+
 
 ## Le Temps : Plus qu'une science, une philosophie
 
@@ -54,7 +54,7 @@ Sans une mesure précise du temps, ces technologies ne fonctionneraient pas corr
 
 Absolument ! La manière dont nous définissons le temps influence notre perception de la réalité. Le temps est une dimension fondamentale de l'univers, et notre capacité à le mesurer avec précision nous permet de mieux comprendre les phénomènes naturels et les lois qui régissent l'univers.
 
----
+
 
 ## L'Avenir de la Seconde : Vers une nouvelle ère de précision
 
