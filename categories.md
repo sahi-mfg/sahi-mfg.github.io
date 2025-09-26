@@ -6,7 +6,7 @@ permalink: /categories/
 
 # Browse by Category
 
-Explore posts organized by different areas of knowledge:
+Explorez les posts organisés par différent domaines:
 
 {% assign categories = site.posts | map: 'category' | uniq | sort %}
 
