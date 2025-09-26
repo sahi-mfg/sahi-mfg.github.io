@@ -4,43 +4,43 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Articles Récents" }}</h2>
-    <ul class="post-list">
-      {%- assign posts = site.posts | sort: 'date' | reverse -%}
-      {%- for post in posts limit: 5 -%}
-      <li>
-        {%- assign date_format = "%d %B %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {%- if post.categories and post.categories != empty -%}
-          {%- for category in post.categories -%}
-            <span class="post-category">[{{ category | upcase }}]</span>
-          {%- endfor -%}
-        {%- elsif post.category -%}
-          <span class="post-category">[{{ post.category | upcase }}]</span>
-        {%- endif -%}
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if post.excerpt -%}
-          <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-        {%- endif -%}
-      </li>
+  <h2 class="post-list-heading">{{ page.list_title | default: "Articles Récents" }}</h2>
+  <ul class="post-list">
+    {%- assign posts = site.posts | sort: 'date' | reverse -%}
+    {%- for post in posts limit: 5 -%}
+    <li>
+      {%- assign date_format = "%d %B %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      {%- if post.categories and post.categories != empty -%}
+      {%- for category in post.categories -%}
+      <span class="post-category">[{{ category | upcase }}]</span>
       {%- endfor -%}
-    </ul>
+      {%- elsif post.category -%}
+      <span class="post-category">[{{ post.category | upcase }}]</span>
+      {%- endif -%}
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if post.excerpt -%}
+      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
 
-    <p class="rss-subscribe">
-      <a href="{{ "/feed.xml" | relative_url }}">S'abonner via RSS</a>
-      | <a href="{{ "/categories" | relative_url }}">Parcourir par catégorie</a>
-    </p>
+  <p class="rss-subscribe">
+    <a href="{{ " /feed.xml" | relative_url }}">S'abonner via RSS</a>
+    | <a href="{{ " /categories" | relative_url }}">Parcourir par catégorie</a>
+  </p>
   {%- else -%}
-    <p>Aucun article publié pour le moment. Revenez bientôt !</p>
+  <p>Aucun article publié pour le moment. Revenez bientôt !</p>
   {%- endif -%}
 </div>
