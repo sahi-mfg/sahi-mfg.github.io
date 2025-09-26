@@ -32,7 +32,7 @@ L'apprentissage ne s'arrête jamais, et je crois que le savoir grandit lorsqu'il
 {% for post in site.posts limit: 5 %}
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
-**{{ post.date | date: "%d %B %Y" }}** 
+**{{ post.date | date: "%d %B %Y" }}**
 {% if post.categories %}
 {% for category in post.categories %}
 *{{ category | upcase }}*
