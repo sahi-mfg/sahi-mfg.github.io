@@ -9,9 +9,6 @@ image: "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.
 image_alt: "Horloge antique montrant le passage du temps"
 ---
 
-![Horloge antique montrant le passage du temps](https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80)
-*Image de couverture : Horloge vintage - Photo par [Unsplash](https://unsplash.com/photos/analog-clock-sketch-in-black-surface-Oaqk7qqNh_c)*
-
 
 
 
