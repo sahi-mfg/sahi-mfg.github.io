@@ -49,11 +49,11 @@ author: Sahi Mohamed Francis Gonsangbeu
 ## Structure
 
 - `_config.yml` - configuration du site
-- `_layouts/` - Page templates
+- `_layouts/` - Les templates
 - `_posts/` - Les posts
-- `assets/css/` - Custom styling
-- `index.md` - Homepage
-- `about.md` - About page
+- `assets/css/` - Style custom 
+- `index.md` - Page d'accueil
+- `about.md` - Page à propos
 - `categories.md` - Les posts organisés par catégories
 
 ---
