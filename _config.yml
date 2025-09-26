@@ -1,8 +1,8 @@
 # Site Settings
 title: "Sahi's Learning Blog"
-email: your.email@example.com
+email: mohamedfrancissahi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal blog where I share what I learn about Math, Programming, Data Science, 
+  A personal blog where I share what I learn about Math, Programming, Data Science,
   Physics, Philosophy, Sociology, and sometimes politics in Ivory Coast.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sahi-mfg.github.io" # the base hostname & protocol for your site
