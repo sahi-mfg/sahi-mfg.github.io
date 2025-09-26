@@ -27,11 +27,6 @@ L'apprentissage ne s'arrête jamais, et je crois que le savoir grandit lorsqu'il
 - Faire le pont entre différents domaines de la connaissance pour trouver des connexions
 - Contribuer au discours intellectuel, particulièrement d'un point de vue africain
 
-## 🚀 Contenu Récent
-
-
-Consultez mes derniers articles ci-dessous, ou naviguez par [catégorie](/categories) pour trouver les sujets qui vous intéressent le plus.
-
 ---
 
 *Suivez mon parcours tandis que j'explore les liens fascinants entre la science, la technologie, la philosophie et la société. Chaque publication est un pas en avant dans la compréhension de notre monde complexe.*
