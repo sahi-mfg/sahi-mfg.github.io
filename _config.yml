@@ -1,12 +1,7 @@
 # Site Settings
 title: "Sahi's Learning Blog"
-email: your.email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A personal blog where I share what I learn about Math, Programming, Data Science, 
-  Physics, Philosophy, Sociology, and sometimes politics in Ivory Coast.
-baseurl: "" # the subpath of your site, e.g. /blog
+email: mohamedfrancissahi@gmail.com
 url: "https://sahi-mfg.github.io" # the base hostname & protocol for your site
-twitter_username: sahi_mfg
 github_username: sahi-mfg
 
 # Build settings
@@ -42,9 +37,8 @@ timezone: Africa/Abidjan
 
 # Author information
 author:
-  name: Sahi MFG
-  location: Ivory Coast
-  bio: "Passionate learner sharing insights on Math, Programming, Data Science, Physics, Philosophy, Sociology, and local politics."
+  name: Sahi Mohamed Francis Gonsangbeu
+
 
 # Navigation
 header_pages:
