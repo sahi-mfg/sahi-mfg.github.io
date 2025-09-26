@@ -4,6 +4,8 @@ title: "En vrai, c'est quoi une seconde? Comprendre l'unité de temps"
 date: 2025-09-26 23:46:00 +0000
 category: physique
 author: Sahi MFG
+
+permalink: /posts/2025-09-26-En-vrai-c-est-quoi-une-seconde
 ---
 
 
