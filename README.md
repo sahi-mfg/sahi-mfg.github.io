@@ -2,8 +2,7 @@
 
 
 
-Built with ❤️ using Jekyll and hosted on GitHub Pages.
-=======
+
 # Sahi's Learning Blog
 
 Bienvenue sur le dépôt GitHub de mon blog personnel. Ce blog est conçu pour partager mes pensées, expériences et connaissances sur divers sujets qui me passionnent.
@@ -26,7 +25,7 @@ Le contenu de ce blog couvre une variété de sujets, notamment :
 
 Si vous souhaitez contribuer à ce blog, n'hésitez pas à soumettre des propositions d'articles ou à partager vos idées. Je suis toujours ouvert aux collaborations et aux échanges d'idées.
 
-## Écrire de nouveaux Posts
+### Écrire de nouveaux Posts
 
 pour ajouter un nouveau post:
 
@@ -63,4 +62,7 @@ author: Sahi Mohamed Francis Gonsangbeu
 Pour toute question ou suggestion, vous pouvez me contacter à l'adresse suivante : [mohamedfrancissahi@gmail.com](mailto:mohamedfrancissahi@gmail.com)
 
 Merci de votre visite et bonne lecture !
+
+Built with ❤️ using Jekyll and hosted on GitHub Pages.
+=======
 
