@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "Bienvenue dans Mon Journal d'Apprentissage"
 ---
 
@@ -26,6 +26,30 @@ L'apprentissage ne s'arrête jamais, et je crois que le savoir grandit lorsqu'il
 - Partager des idées qui pourraient aider d'autres apprenants
 - Faire le pont entre différents domaines de la connaissance pour trouver des connexions
 - Contribuer au discours intellectuel, particulièrement d'un point de vue africain
+
+## 📖 Articles Récents
+
+{% for post in site.posts limit: 5 %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+**{{ post.date | date: "%d %B %Y" }}** 
+{% if post.categories %}
+{% for category in post.categories %}
+*{{ category | upcase }}*
+{% endfor %}
+{% endif %}
+
+{{ post.excerpt | strip_html | truncatewords: 30 }}
+
+[Lire la suite →]({{ post.url | relative_url }})
+
+---
+{% endfor %}
+
+## 🔗 Navigation
+
+- [Parcourir par catégorie](/categories)
+- [S'abonner via RSS](/feed.xml)
 
 ---
 

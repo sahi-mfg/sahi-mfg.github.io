@@ -1,0 +1,165 @@
+--- --- @import "minima";
+
+/* Custom styles for Sahi's blog */
+
+/* Header customizations */
+.site-header {
+  border-bottom: 2px solid #2a7ae4;
+}
+
+.site-title {
+  color: #2a7ae4 !important;
+  font-weight: bold;
+}
+
+/* Post category styling */
+.post-category {
+  background: #2a7ae4;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.post-meta .post-category {
+  background: #e8f2ff;
+  color: #2a7ae4;
+  border: 1px solid #2a7ae4;
+}
+
+/* Homepage welcome section */
+.home h1:first-child {
+  color: #2a7ae4;
+  margin-bottom: 1em;
+}
+
+/* Code blocks */
+.highlight {
+  background: #f8f9fa;
+  border-left: 4px solid #2a7ae4;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+table th {
+  background: #f8f9fa;
+  font-weight: bold;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #2a7ae4;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background: #f8f9fa;
+  font-style: italic;
+}
+
+/* Links */
+a {
+  color: #2a7ae4;
+}
+
+a:hover {
+  color: #1a5bb8;
+}
+
+/* Post excerpts */
+.post-list li p {
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .post-category {
+    display: block;
+    margin: 5px 0;
+  }
+
+  table {
+    font-size: 0.8em;
+  }
+}
+
+/* Category page styling */
+#categories h2 {
+  color: #2a7ae4;
+  border-bottom: 2px solid #2a7ae4;
+  padding-bottom: 0.5em;
+  margin-top: 2em;
+}
+
+/* Footer customizations */
+.site-footer {
+  background: #f8f9fa;
+  border-top: 1px solid #e8e8e8;
+}
+
+/* Navigation improvements */
+.page-link {
+  margin: 0 5px;
+}
+
+.page-link:hover {
+  text-decoration: underline;
+}
+
+/* Image de couverture et post styles */
+.post-featured-image {
+  margin-bottom: 20px;
+}
+
+.post-featured-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  display: flex !important;
+  gap: 20px !important;
+  align-items: flex-start !important;
+  padding: 20px !important;
+  border: 1px solid #eee !important;
+  border-radius: 8px !important;
+  margin-bottom: 20px !important;
+  transition: box-shadow 0.3s ease;
+}
+
+.post-list li:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-category {
+  background: #007cba !important;
+  color: white !important;
+  padding: 2px 8px !important;
+  border-radius: 4px !important;
+  font-size: 0.8em !important;
+  margin-left: 10px !important;
+}

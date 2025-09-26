@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "En vrai, c'est quoi une seconde? Comprendre l'unité de temps"
 date: 2025-09-26 23:46:00 +0000
 categories: [physique]
@@ -9,8 +9,11 @@ image: "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.
 image_alt: "Horloge antique montrant le passage du temps"
 ---
 
+![Horloge antique](https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80)
 
+**Publié le 26 septembre 2025** • **Catégorie:** PHYSIQUE • **Auteur:** Sahi MFG
 
+---
 
 # L'énigme du temps : La nature fascinante d'une seconde
 
