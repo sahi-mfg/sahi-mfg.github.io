@@ -1,0 +1,14 @@
+{
+    "name": "Sahi's Learning Blog",
+    "short_name": "Sahi Blog",
+    "icons": [
+        {
+            "src": "favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ],
+    "theme_color": "#2879d0",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

@@ -45,6 +45,9 @@ future: true
 author:
   name: Sahi Mohamed Francis Gonsangbeu
 
+# Favicon
+favicon: "/assets/images/favicon.svg"
+
 
 # Navigation
 header_pages:

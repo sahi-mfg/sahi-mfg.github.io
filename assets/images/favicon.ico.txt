@@ -1,0 +1,2 @@
+<!-- Ce fichier sera remplacé par un vrai favicon.ico -->
+<!-- Pour l'instant, nous utilisons le SVG comme fallback -->
