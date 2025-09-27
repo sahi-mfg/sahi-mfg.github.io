@@ -3,22 +3,22 @@
 
 @import "{{ site.theme }}";
 
-/* Custom styles for Sahi's blog with Cayman theme */
+/* Custom styles for Sahi's blog with Architect theme */
 
 /* Article metadata styling */
 p strong {
-  color: #159957;
+  color: #2879d0;
 }
 
 /* Category and meta information */
 .post-meta {
-  color: #159957;
+  color: #2879d0;
   font-size: 0.9em;
   margin-bottom: 20px;
-  padding: 10px;
-  background: rgba(21, 153, 87, 0.1);
-  border-radius: 5px;
-  border-left: 4px solid #159957;
+  padding: 12px;
+  background: rgba(40, 121, 208, 0.08);
+  border-radius: 6px;
+  border-left: 4px solid #2879d0;
 }
 
 /* Images styling */
@@ -30,22 +30,23 @@ img {
 
 /* Code blocks enhancement */
 .highlight {
-  border-radius: 5px;
-  border-left: 4px solid #159957;
+  border-radius: 6px;
+  border-left: 4px solid #2879d0;
 }
 
 /* Links in content */
 .main-content a {
-  color: #159957;
+  color: #2879d0;
 }
 
 .main-content a:hover {
   text-decoration: underline;
+  color: #1a5490;
 }
 
 /* Horizontal rules */
 hr {
-  background: linear-gradient(to right, #159957, #19bc9b);
+  background: linear-gradient(to right, #2879d0, #4a90e2);
   height: 2px;
   border: none;
   margin: 30px 0;
@@ -58,7 +59,7 @@ hr {
 .main-content h4, 
 .main-content h5, 
 .main-content h6 {
-  color: #159957;
+  color: #2879d0;
 }
 
 /* Ensure consistent styling across all pages */
@@ -69,7 +70,7 @@ hr {
 
 /* Navigation consistency */
 .main-content a {
-  color: #159957;
+  color: #2879d0;
   font-weight: 500;
 }
 
@@ -81,11 +82,11 @@ hr {
 
 /* Blockquotes styling */
 .main-content blockquote {
-  border-left: 4px solid #159957;
-  background: rgba(21, 153, 87, 0.05);
+  border-left: 4px solid #2879d0;
+  background: rgba(40, 121, 208, 0.05);
   padding: 15px;
   margin: 20px 0;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 6px 6px 0;
 }
 
 /* Tables styling */
@@ -103,7 +104,7 @@ hr {
 }
 
 .main-content th {
-  background: #159957;
+  background: #2879d0;
   color: white;
   font-weight: 600;
 }

@@ -10,7 +10,7 @@ github_username: sahi-mfg
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
   - jekyll-sitemap
