@@ -66,7 +66,7 @@ Absolument ! La manière dont nous définissons le temps influence notre percept
 Oui, la science est en constante évolution. Il est possible que de nouvelles découvertes ou technologies puissent conduire à une redéfinition de la seconde. Par exemple, des recherches sont en cours pour utiliser d'autres types d'atomes ou des phénomènes quantiques afin d'améliorer encore la précision de nos mesures du temps.
 
 
-**En conclusion,** une seconde est bien plus qu'une simple unité de temps. C'est une mesure **à la fois précise et fondamentale** qui joue un rôle crucial dans notre vie quotidienne et dans le fonctionnement de nombreuses technologies modernes. J'espère que cette plongée dans le monde de la seconde vous aura montré que derrière cette simple unité de temps se cache une quête humaine fascinante pour l'exactitude.
+En conclusion, une seconde est bien plus qu'une simple unité de temps. C'est une mesure **à la fois précise et fondamentale** qui joue un rôle crucial dans notre vie quotidienne et dans le fonctionnement de nombreuses technologies modernes. J'espère que cette plongée dans le monde de la seconde vous aura montré que derrière cette simple unité de temps se cache une quête humaine fascinante pour l'exactitude.
 
 Merci de m'avoir lu. Ceci est le début d'une série d'articles où j'explorerai divers sujets fascinants. Restez à l'écoute pour plus de réflexions et d'analyses **!**
 
