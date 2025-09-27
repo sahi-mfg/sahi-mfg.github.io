@@ -3,7 +3,7 @@ layout: default
 title: "En vrai, c'est quoi une seconde? Comprendre l'unité de temps"
 date: 2025-09-26 23:46:00 +0000
 categories: [physique]
-author: Sahi MFG
+author: Sahi Mohamed Francis Gonsangbeu
 excerpt: "Une exploration fascinante de la définition précise de la seconde et de son importance en physique moderne."
 image: "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630&q=80"
 image_alt: "Horloge antique montrant le passage du temps"
