@@ -1,7 +1,4 @@
----
----
-
-@import "{{ site.theme }}";
+--- --- @import "{{ site.theme }}";
 
 /* Custom styles for Sahi's blog with Architect theme */
 
@@ -24,7 +21,7 @@ p strong {
 /* Images styling */
 img {
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
 }
 
@@ -53,11 +50,11 @@ hr {
 }
 
 /* Headers in content */
-.main-content h1, 
-.main-content h2, 
-.main-content h3, 
-.main-content h4, 
-.main-content h5, 
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
 .main-content h6 {
   color: #2879d0;
 }
