@@ -1,0 +1,74 @@
+---
+title: "DÉCOUVRIR, COMPRENDRE, APPRENDRE, PARTAGER"
+subtitle: "L'apprentissage continu rendu simple, accessible et inspirant pour tous"
+---
+
+::: {.hero-banner}
+# Bienvenue sur mon Journal d'Apprentissage
+
+Explorez avec moi un univers de connaissances à travers la science, la technologie et la philosophie.
+:::
+
+## 📚 Articles : Explore mes découvertes
+
+Tu trouveras ici mes réflexions, analyses et découvertes à travers différents domaines :
+
+::: {.content-grid}
+
+::: {.card}
+### 🔬 Science des données
+Analyses, machine learning et visualisations pour comprendre le monde à travers les données.
+:::
+
+::: {.card}
+### 💻 Programmation
+Tutoriels pratiques, bonnes pratiques et exploration de nouveaux langages et frameworks.
+:::
+
+::: {.card}
+### 🧮 Mathématiques
+Concepts mathématiques expliqués simplement avec des applications concrètes.
+:::
+
+::: {.card}
+### ⚗️ Physique
+Comprendre le monde qui nous entoure à travers les lois fondamentales de l'univers.
+:::
+
+::: {.card}
+### 🤔 Philosophie
+Réflexions sur l'existence, la société, l'éthique et les questions existentielles.
+:::
+
+::: {.card}
+### 🚀 Innovation
+Exploration des technologies émergentes et de leur impact sur notre futur.
+:::
+
+:::
+
+## 📝 Articles récents
+
+Aucun article disponible pour le moment. Le premier article arrive bientôt !
+
+## 🎯 Mission
+
+Mon objectif est de rendre l'apprentissage accessible à tous en :
+
+- **Simplifiant** les concepts complexes
+- **Partageant** mes expériences et découvertes  
+- **Inspirant** la curiosité intellectuelle
+- **Créant** une communauté d'apprenants passionnés
+
+## 📬 Restons connectés
+
+N'hésitez pas à me contacter pour partager vos réflexions, poser des questions ou proposer des sujets d'articles !
+
+::: {.contact-buttons}
+[📧 Email](mailto:mohamedfrancissahi@gmail.com){.btn .btn-primary}
+[🐙 GitHub](https://github.com/sahi-mfg){.btn .btn-outline-dark}
+:::
+
+---
+
+*"La curiosité est le moteur de la découverte, et le partage est la clé de la connaissance collective."*

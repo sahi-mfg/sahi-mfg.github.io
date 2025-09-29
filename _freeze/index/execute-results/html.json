@@ -1,0 +1,12 @@
+{
+  "hash": "7dacbb8299f504a540a88f9861a99923",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"DÉCOUVRIR, COMPRENDRE, APPRENDRE, PARTAGER\"\nsubtitle: \"L'apprentissage continu rendu simple, accessible et inspirant pour tous\"\n---\n\n::: {.hero-banner}\n# Bienvenue sur mon Journal d'Apprentissage\n\nExplorez avec moi un univers de connaissances à travers la science, la technologie et la philosophie.\n:::\n\n## 📚 Articles : Explore mes découvertes\n\nTu trouveras ici mes réflexions, analyses et découvertes à travers différents domaines :\n\n::: {.content-grid}\n\n::: {.card}\n### 🔬 Science des données\nAnalyses, machine learning et visualisations pour comprendre le monde à travers les données.\n:::\n\n::: {.card}\n### 💻 Programmation\nTutoriels pratiques, bonnes pratiques et exploration de nouveaux langages et frameworks.\n:::\n\n::: {.card}\n### 🧮 Mathématiques\nConcepts mathématiques expliqués simplement avec des applications concrètes.\n:::\n\n::: {.card}\n### ⚗️ Physique\nComprendre le monde qui nous entoure à travers les lois fondamentales de l'univers.\n:::\n\n::: {.card}\n### 🤔 Philosophie\nRéflexions sur l'existence, la société, l'éthique et les questions existentielles.\n:::\n\n::: {.card}\n### 🚀 Innovation\nExploration des technologies émergentes et de leur impact sur notre futur.\n:::\n\n:::\n\n## 📝 Articles récents\n\n::: {#3211a42b .cell execution_count=1}\n\n::: {.cell-output .cell-output-stdout}\n```\n- [Test de catégorisation](posts/2025-09-29-test-categorisation.html) - 29 September 2025\n- [En vrai, c](posts/2025-09-26-seconde.html) - 26 September 2025\n```\n:::\n:::\n\n\n## 🎯 Mission\n\nMon objectif est de rendre l'apprentissage accessible à tous en :\n\n- **Simplifiant** les concepts complexes\n- **Partageant** mes expériences et découvertes  \n- **Inspirant** la curiosité intellectuelle\n- **Créant** une communauté d'apprenants passionnés\n\n## 📬 Restons connectés\n\nN'hésitez pas à me contacter pour partager vos réflexions, poser des questions ou proposer des sujets d'articles !\n\n::: {.contact-buttons}\n[📧 Email](mailto:mohamedfrancissahi@gmail.com){.btn .btn-primary}\n[🐙 GitHub](https://github.com/sahi-mfg){.btn .btn-outline-dark}\n:::\n\n---\n\n*\"La curiosité est le moteur de la découverte, et le partage est la clé de la connaissance collective.\"*\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

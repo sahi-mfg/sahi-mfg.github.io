@@ -1,0 +1,14 @@
+---
+title: "Articles de Science des Données"
+listing:
+  contents: "../posts"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  include:
+    categories: "data-science"
+---
+
+Analyses de données, machine learning et visualisations pour comprendre le monde.

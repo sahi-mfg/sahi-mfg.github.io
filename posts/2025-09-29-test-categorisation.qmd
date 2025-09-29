@@ -1,0 +1,18 @@
+---
+title: "Test de catégorisation"
+description: "Un article de test pour vérifier le système de catégories"
+author: "Sahi MFG"
+date: "2025-09-29"
+categories: [physique, test]
+---
+
+# Test de catégorisation
+
+Ceci est un article de test pour vérifier que le système de catégories fonctionne correctement.
+
+Il devrait apparaître dans les catégories **PHYSIQUE** et **TEST**.
+
+::: {.callout-note}
+## Note de développement
+Cet article sert uniquement à tester la fonctionnalité de catégorisation dans le nouveau système Quarto.
+:::

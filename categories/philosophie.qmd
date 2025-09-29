@@ -1,0 +1,14 @@
+---
+title: "Articles de Philosophie"
+listing:
+  contents: "../posts"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  include:
+    categories: "philosophie"
+---
+
+Réflexions sur l'existence, l'éthique et les grandes questions de notre époque.

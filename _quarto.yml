@@ -1,0 +1,72 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Journal d'Apprentissage de Sahi"
+  description: "Un blog personnel pour partager mes pensées, expériences et connaissances sur divers sujets qui me passionnent."
+  site-url: "https://sahi-mfg.github.io"
+  repo-url: "https://github.com/sahi-mfg/sahi-mfg.github.io"
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: about.qmd
+        text: À propos
+      - href: posts.qmd
+        text: Articles
+    right:
+      - icon: github
+        href: "https://github.com/sahi-mfg"
+      - icon: envelope
+        href: "mailto:mohamedfrancissahi@gmail.com"
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Navigation"
+        contents:
+          - href: index.qmd
+            text: "Accueil"
+          - href: about.qmd
+            text: "À propos"
+          - href: posts.qmd
+            text: "Articles"
+      - section: "Catégories"
+        contents:
+          - href: categories/physique.qmd
+            text: "Physique"
+          - href: categories/mathematiques.qmd
+            text: "Mathématiques"
+          - href: categories/programmation.qmd
+            text: "Programmation"
+          - href: categories/data-science.qmd
+            text: "Science des données"
+          - href: categories/philosophie.qmd
+            text: "Philosophie"
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    html-math-method: katex
+    
+author:
+  - name: "Sahi Mohamed Francis Gonsangbeu"
+    email: "mohamedfrancissahi@gmail.com"
+    url: "https://github.com/sahi-mfg"
+
+date-format: "DD MMMM YYYY"
+lang: fr
+
+execute:
+  freeze: auto
+  cache: true

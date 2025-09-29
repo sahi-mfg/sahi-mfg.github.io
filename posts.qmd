@@ -1,0 +1,14 @@
+---
+title: "Tous les articles"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 10
+  feed: true
+---
+
+Explorez tous mes articles classés par date et par catégorie.

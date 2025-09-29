@@ -1,0 +1,14 @@
+---
+title: "Articles de Physique"
+listing:
+  contents: "../posts"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  include:
+    categories: "physique"
+---
+
+Explorez mes articles sur la physique, des concepts fondamentaux aux découvertes les plus récentes.

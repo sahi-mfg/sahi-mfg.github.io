@@ -1,0 +1,14 @@
+---
+title: "Articles de Mathématiques"
+listing:
+  contents: "../posts"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  include:
+    categories: "mathematiques"
+---
+
+Découvrez mes explorations mathématiques, des concepts de base aux théories avancées.

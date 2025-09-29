@@ -1,0 +1,74 @@
+---
+title: "À propos de moi"
+---
+
+## Qui suis-je ?
+
+Salut ! Je suis **Sahi Mohamed Francis Gonsangbeu**, un passionné d'apprentissage et de partage de connaissances.
+
+### Mon parcours
+
+Je suis fasciné par la manière dont les différents domaines de la connaissance s'interconnectent. Que ce soit à travers la science des données, la programmation, les mathématiques, la physique ou la philosophie, j'aime explorer comment ces disciplines peuvent nous aider à mieux comprendre notre monde.
+
+### Ma philosophie
+
+> "L'apprentissage continu est la clé de l'épanouissement personnel et professionnel"
+
+Je crois fermement que :
+
+- **La curiosité** est le moteur de l'innovation
+- **Le partage** enrichit la communauté d'apprentissage
+- **La simplicité** rend les concepts complexes accessibles
+- **La pratique** transforme la théorie en compétence
+
+### Mes domaines d'intérêt
+
+::: {.interest-grid}
+
+#### 🔬 Science des données
+Exploration et analyse de données pour révéler des insights cachés et créer de la valeur.
+
+#### 💻 Programmation
+Développement d'applications et d'outils, avec un focus sur Python, JavaScript et les technologies émergentes.
+
+#### 🧮 Mathématiques
+Fascination pour les structures mathématiques qui gouvernent notre univers.
+
+#### ⚗️ Physique
+Compréhension des lois fondamentales qui régissent la matière et l'énergie.
+
+#### 🤔 Philosophie
+Réflexions sur l'existence, l'éthique et les questions existentielles de notre époque.
+
+:::
+
+### Pourquoi ce blog ?
+
+Ce blog est né de ma conviction que l'apprentissage devient plus riche quand il est partagé. Mon objectif est de :
+
+1. **Documenter** mon parcours d'apprentissage
+2. **Simplifier** des concepts complexes
+3. **Inspirer** d'autres apprenants
+4. **Créer** une communauté d'échange
+
+### Mes outils favoris
+
+- **Langages** : Python, JavaScript, R
+- **Data Science** : Pandas, NumPy, Matplotlib, Scikit-learn
+- **Web** : HTML/CSS, React, Node.js
+- **Outils** : Git, Docker, Jupyter, Quarto
+- **Philosophie** : Pensée critique, logique formelle
+
+### Contact
+
+J'adore échanger avec d'autres passionnés ! N'hésitez pas à me contacter :
+
+::: {.contact-info}
+- 📧 **Email** : mohamedfrancissahi@gmail.com
+- 🐙 **GitHub** : [sahi-mfg](https://github.com/sahi-mfg)
+- 🌐 **Site** : [sahi-mfg.github.io](https://sahi-mfg.github.io)
+:::
+
+---
+
+*"Dans un monde en constante évolution, la capacité d'apprendre et de s'adapter devient notre superpouvoir le plus précieux."*

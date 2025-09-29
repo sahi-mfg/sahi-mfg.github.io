@@ -1,0 +1,14 @@
+---
+title: "Articles de Programmation"
+listing:
+  contents: "../posts"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  include:
+    categories: "programmation"
+---
+
+Tutoriels, guides pratiques et réflexions sur le développement logiciel.
