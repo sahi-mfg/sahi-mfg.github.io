@@ -14,7 +14,7 @@ permalink: /categories/
 {% for category in categories %}
   {% assign category_name = category[0] %}
   {% assign posts_in_category = category[1] %}
-  
+
 ## 📂 {{ category_name | upcase }}
 
 {% for post in posts_in_category %}
