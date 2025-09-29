@@ -130,7 +130,7 @@ Le site est automatiquement déployé sur GitHub Pages : https://sahi-mfg.github
 ## 📚 Catégories d'articles
 
 - **🔬 Science des données** - Analyses, machine learning et visualisations
-- **💻 Programmation** - Tutoriels pratiques et bonnes pratiques  
+- **💻 Programmation** - Tutoriels pratiques et bonnes pratiques
 - **🧮 Mathématiques** - Concepts expliqués simplement
 - **⚗️ Physique** - Comprendre le monde qui nous entoure
 - **🤔 Philosophie** - Réflexions sur l'existence et la société

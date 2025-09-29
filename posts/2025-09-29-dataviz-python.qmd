@@ -245,7 +245,7 @@ Dans les prochains articles, nous explorerons des techniques plus avancées comm
 
 ::: {.references}
 - [Documentation Matplotlib](https://matplotlib.org/stable/contents.html)
-- [Galerie Seaborn](https://seaborn.pydata.org/examples/index.html)  
+- [Galerie Seaborn](https://seaborn.pydata.org/examples/index.html)
 - [Plotly Python](https://plotly.com/python/)
 - [Livre "Python Data Science Handbook"](https://jakevdp.github.io/PythonDataScienceHandbook/)
 :::
