@@ -1,0 +1,251 @@
+---
+title: "Introduction à la visualisation de données avec Python"
+description: "Découvrez comment créer des visualisations de données élégantes avec matplotlib et seaborn"
+author: "Sahi Mohamed Francis Gonsangbeu"
+date: "2025-09-29"
+categories: [programmation, data-science, python]
+image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630&q=80"
+---
+
+![Visualisation de données](https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400&q=80)
+
+::: {.article-meta}
+**Publié le 29 septembre 2025** • **Catégories:** PROGRAMMATION, DATA SCIENCE • **Auteur:** Sahi MFG
+:::
+
+La visualisation de données est un art autant qu'une science. Elle permet de transformer des nombres abstraits en histoires visuelles compréhensibles et engageantes.
+
+## Pourquoi la visualisation est-elle importante ?
+
+Dans notre monde saturé de données, la capacité à communiquer efficacement les insights est cruciale. Une bonne visualisation peut :
+
+- **Révéler des patterns** cachés dans les données
+- **Simplifier** des concepts complexes
+- **Persuader** et influencer les décisions
+- **Démocratiser** l'accès à l'information
+
+## Configuration de l'environnement
+
+Commençons par importer les bibliothèques nécessaires :
+
+```{python}
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+import pandas as pd
+from datetime import datetime, timedelta
+import warnings
+warnings.filterwarnings('ignore')
+
+# Configuration pour des graphiques plus esthétiques
+plt.style.use('default')
+sns.set_palette("husl")
+```
+
+## Création de données d'exemple
+
+Créons un jeu de données fictif pour illustrer nos concepts :
+
+```{python}
+# Génération de données temporelles
+np.random.seed(42)
+dates = pd.date_range('2024-01-01', '2024-12-31', freq='D')
+n_days = len(dates)
+
+# Simulation de données de ventes
+base_sales = 1000
+seasonal_factor = 200 * np.sin(2 * np.pi * np.arange(n_days) / 365.25)
+trend = 0.5 * np.arange(n_days)
+noise = np.random.normal(0, 50, n_days)
+sales = base_sales + seasonal_factor + trend + noise
+
+# Création du DataFrame
+df = pd.DataFrame({
+    'date': dates,
+    'sales': sales,
+    'month': dates.month,
+    'day_of_week': dates.day_name()
+})
+
+# Ajout de catégories
+df['category'] = np.random.choice(['Électronique', 'Vêtements', 'Livres', 'Maison'], n_days)
+df['region'] = np.random.choice(['Nord', 'Sud', 'Est', 'Ouest'], n_days)
+
+print(f"Dataset créé avec {len(df)} entrées")
+df.head()
+```
+
+## Visualisations de base avec Matplotlib
+
+### Graphique linéaire simple
+
+```{python}
+#| fig-cap: "Évolution des ventes au cours de l'année 2024"
+
+plt.figure(figsize=(12, 6))
+plt.plot(df['date'], df['sales'], linewidth=1.5, alpha=0.8)
+plt.title('Évolution des ventes en 2024', fontsize=16, fontweight='bold')
+plt.xlabel('Date', fontsize=12)
+plt.ylabel('Ventes (€)', fontsize=12)
+plt.grid(True, alpha=0.3)
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+```
+
+### Histogramme avec personnalisation
+
+```{python}
+#| fig-cap: "Distribution des ventes quotidiennes"
+
+plt.figure(figsize=(10, 6))
+plt.hist(df['sales'], bins=50, edgecolor='black', alpha=0.7, color='skyblue')
+plt.axvline(df['sales'].mean(), color='red', linestyle='--', linewidth=2, label=f'Moyenne: {df["sales"].mean():.0f}€')
+plt.axvline(df['sales'].median(), color='orange', linestyle='--', linewidth=2, label=f'Médiane: {df["sales"].median():.0f}€')
+plt.title('Distribution des ventes quotidiennes', fontsize=16, fontweight='bold')
+plt.xlabel('Ventes (€)', fontsize=12)
+plt.ylabel('Fréquence', fontsize=12)
+plt.legend()
+plt.grid(True, alpha=0.3)
+plt.tight_layout()
+plt.show()
+```
+
+## Visualisations avancées avec Seaborn
+
+### Analyse par catégorie
+
+```{python}
+#| fig-cap: "Ventes moyennes par catégorie de produit"
+
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=df, x='category', y='sales')
+plt.title('Distribution des ventes par catégorie', fontsize=16, fontweight='bold')
+plt.xlabel('Catégorie', fontsize=12)
+plt.ylabel('Ventes (€)', fontsize=12)
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+```
+
+### Heatmap de corrélation
+
+```{python}
+#| fig-cap: "Ventes moyennes par mois et région"
+
+# Préparation des données pour la heatmap
+heatmap_data = df.groupby(['month', 'region'])['sales'].mean().unstack()
+
+plt.figure(figsize=(12, 8))
+sns.heatmap(heatmap_data, annot=True, fmt='.0f', cmap='YlOrRd', cbar_kws={'label': 'Ventes moyennes (€)'})
+plt.title('Ventes moyennes par mois et région', fontsize=16, fontweight='bold')
+plt.xlabel('Région', fontsize=12)
+plt.ylabel('Mois', fontsize=12)
+plt.tight_layout()
+plt.show()
+```
+
+## Analyse statistique rapide
+
+```{python}
+# Statistiques descriptives
+print("📊 Statistiques descriptives des ventes :")
+print(f"Moyenne : {df['sales'].mean():.2f}€")
+print(f"Médiane : {df['sales'].median():.2f}€")
+print(f"Écart-type : {df['sales'].std():.2f}€")
+print(f"Min : {df['sales'].min():.2f}€")
+print(f"Max : {df['sales'].max():.2f}€")
+
+# Ventes par jour de la semaine
+sales_by_day = df.groupby('day_of_week')['sales'].mean().sort_values(ascending=False)
+print(f"\n📅 Meilleures journées de vente :")
+for day, sales in sales_by_day.items():
+    print(f"{day}: {sales:.2f}€")
+```
+
+## Conseils pour de meilleures visualisations
+
+::: {.callout-tip}
+## Bonnes pratiques
+
+1. **Choisissez le bon type de graphique** pour vos données
+2. **Utilisez des couleurs cohérentes** et accessibles
+3. **Ajoutez des titres et légendes** explicites
+4. **Évitez la surcharge d'information**
+5. **Testez vos visualisations** avec votre audience cible
+:::
+
+### Types de graphiques selon vos données
+
+- **Lignes** : Évolution temporelle
+- **Barres** : Comparaisons entre catégories
+- **Histogrammes** : Distribution de valeurs continues
+- **Scatter plots** : Relations entre variables
+- **Heatmaps** : Données matricielles ou corrélations
+
+## Graphique interactif avec Plotly
+
+```{python}
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+# Création d'un graphique interactif
+fig = go.Figure()
+
+# Ajout de la courbe des ventes
+fig.add_trace(go.Scatter(
+    x=df['date'],
+    y=df['sales'],
+    mode='lines',
+    name='Ventes quotidiennes',
+    line=dict(color='blue', width=2)
+))
+
+# Ajout de la moyenne mobile
+df['sales_ma'] = df['sales'].rolling(window=30).mean()
+fig.add_trace(go.Scatter(
+    x=df['date'],
+    y=df['sales_ma'],
+    mode='lines',
+    name='Moyenne mobile (30 jours)',
+    line=dict(color='red', width=3)
+))
+
+# Mise en forme
+fig.update_layout(
+    title='Évolution des ventes avec moyenne mobile',
+    xaxis_title='Date',
+    yaxis_title='Ventes (€)',
+    hovermode='x',
+    width=800,
+    height=500
+)
+
+fig.show()
+```
+
+## Conclusion
+
+La visualisation de données est un outil puissant pour transformer l'information en insights actionables. Avec Python et ses bibliothèques riches comme matplotlib, seaborn et plotly, nous disposons d'un arsenal complet pour créer des visualisations à la fois belles et informatives.
+
+::: {.callout-note}
+## À retenir
+
+- **Matplotlib** : Contrôle précis et personnalisation avancée
+- **Seaborn** : Interface élégante pour analyses statistiques
+- **Plotly** : Interactivité et visualisations modernes
+- **Pandas** : Manipulation et préparation des données
+:::
+
+Dans les prochains articles, nous explorerons des techniques plus avancées comme les dashboards interactifs et l'analyse de données en temps réel.
+
+---
+
+## Pour aller plus loin
+
+::: {.references}
+- [Documentation Matplotlib](https://matplotlib.org/stable/contents.html)
+- [Galerie Seaborn](https://seaborn.pydata.org/examples/index.html)  
+- [Plotly Python](https://plotly.com/python/)
+- [Livre "Python Data Science Handbook"](https://jakevdp.github.io/PythonDataScienceHandbook/)
+:::
