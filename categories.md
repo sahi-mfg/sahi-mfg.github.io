@@ -10,14 +10,13 @@ permalink: /categories/
 
 ---
 
-{% assign all_categories = site.categories | map: 'first' | sort %}
+{% assign categories = site.categories | sort %}
+{% for category in categories %}
+  {% assign category_name = category[0] %}
+  {% assign posts_in_category = category[1] %}
+  
+## 📂 {{ category_name | upcase }}
 
-{% if all_categories.size > 0 %}
-{% for category in all_categories %}
-  {% if category != "" %}
-## 📂 {{ category | upcase }}
-
-{% assign posts_in_category = site.categories[category] %}
 {% for post in posts_in_category %}
 ### [{{ post.title }}]({{ post.url | relative_url }})
 **{{ post.date | date: "%d %B %Y" }}** • *{{ post.author | default: "Sahi MFG" }}*
@@ -27,6 +26,7 @@ permalink: /categories/
 [Lire l'article 🚀]({{ post.url | relative_url }})
 
 ---
+{% endfor %}
 {% endfor %}
   {% endif %}
 {% endfor %}
