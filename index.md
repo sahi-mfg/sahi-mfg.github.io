@@ -14,7 +14,7 @@ title: "Journal d'Apprentissage de Sahi"
 Tu trouveras ici mes réflexions, analyses et découvertes à travers différents domaines :
 
 • **Science des données** - Analyses, machine learning et visualisations
-• **Programmation** - Tutoriels pratiques et bonnes pratiques  
+• **Programmation** - Tutoriels pratiques et bonnes pratiques
 • **Mathématiques** - Concepts expliqués simplement
 • **Physique** - Comprendre le monde qui nous entoure
 • **Philosophie** - Réflexions sur l'existence et la société
@@ -28,7 +28,7 @@ Chaque article est pensé pour être accessible, pratique et inspirant.
 
 ## 💡 À PROPOS : APPRENDS À ME CONNAÎTRE
 
-Je suis **Sahi Mohamed Francis**, un passionné de connaissances basé en **Côte d'Ivoire**. 
+Je suis **Sahi Mohamed Francis**, un passionné de connaissances basé en **Côte d'Ivoire**.
 
 Ce blog est mon espace de partage où je documente mon parcours d'apprentissage continu à travers les sciences, la technologie, la philosophie et bien d'autres domaines.
 

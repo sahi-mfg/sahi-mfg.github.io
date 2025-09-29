@@ -10,13 +10,14 @@ permalink: /categories/
 
 ---
 
-{% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+{% assign all_categories = site.categories | map: 'first' | sort %}
 
+{% if all_categories.size > 0 %}
 {% for category in all_categories %}
   {% if category != "" %}
 ## 📂 {{ category | upcase }}
 
-{% assign posts_in_category = site.posts | where: 'categories', category %}
+{% assign posts_in_category = site.categories[category] %}
 {% for post in posts_in_category %}
 ### [{{ post.title }}]({{ post.url | relative_url }})
 **{{ post.date | date: "%d %B %Y" }}** • *{{ post.author | default: "Sahi MFG" }}*
@@ -29,6 +30,13 @@ permalink: /categories/
 {% endfor %}
   {% endif %}
 {% endfor %}
+{% else %}
+## 📝 Aucune catégorie trouvée
+
+Il semble qu'aucun article ne soit encore catégorisé. Revenez bientôt pour découvrir les articles organisés par thèmes !
+
+[Voir tous les articles 🚀](/)
+{% endif %}
 
 [← Retour à l'accueil 🚀](/)
 
