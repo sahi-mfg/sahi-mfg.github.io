@@ -1,107 +1,124 @@
---- --- @import "{{ site.theme }}";
+---
+---
 
-/* Custom styles for Sahi's blog with Architect theme */
+@import "{{ site.theme }}";
 
-/* Article metadata styling */
-p strong {
+/* Custom styles inspired by DAMA design */
+
+/* Main content styling inspired by DAMA */
+.main-content {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Hero title styling */
+.main-content h1:first-child {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
   color: #2879d0;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
 }
 
-/* Category and meta information */
-.post-meta {
+/* Subtitle styling */
+.main-content p:first-of-type em {
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 2em;
+  font-style: italic;
+}
+
+/* Section headers */
+.main-content h2 {
+  font-size: 1.6em;
+  font-weight: 600;
   color: #2879d0;
-  font-size: 0.9em;
-  margin-bottom: 20px;
-  padding: 12px;
-  background: rgba(40, 121, 208, 0.08);
-  border-radius: 6px;
-  border-left: 4px solid #2879d0;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #2879d0;
+  padding-bottom: 0.5em;
 }
 
-/* Images styling */
-img {
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+/* CTA Buttons styling like DAMA */
+.main-content a[href*="🚀"] {
+  display: inline-block;
+  background: linear-gradient(135deg, #2879d0, #4a90e2);
+  color: white !important;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none !important;
+  font-weight: 600;
+  margin: 15px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(40, 121, 208, 0.3);
 }
 
-/* Code blocks enhancement */
-.highlight {
-  border-radius: 6px;
-  border-left: 4px solid #2879d0;
+.main-content a[href*="🚀"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(40, 121, 208, 0.4);
+  background: linear-gradient(135deg, #1a5490, #2879d0);
 }
 
-/* Links in content */
-.main-content a {
+/* List styling */
+.main-content ul li {
+  margin-bottom: 0.8em;
+  padding-left: 0.5em;
+}
+
+/* Strong text in lists */
+.main-content li strong {
   color: #2879d0;
-}
-
-.main-content a:hover {
-  text-decoration: underline;
-  color: #1a5490;
+  font-weight: 600;
 }
 
 /* Horizontal rules */
 hr {
-  background: linear-gradient(to right, #2879d0, #4a90e2);
-  height: 2px;
   border: none;
-  margin: 30px 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #2879d0, transparent);
+  margin: 3em 0;
 }
 
-/* Headers in content */
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  color: #2879d0;
+/* Footer text */
+.main-content p:last-child {
+  text-align: center;
+  color: #888;
+  font-size: 0.9em;
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #eee;
 }
 
-/* Ensure consistent styling across all pages */
-.main-content {
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-/* Navigation consistency */
-.main-content a {
-  color: #2879d0;
-  font-weight: 500;
-}
-
-/* List styling consistency */
-.main-content ul li,
-.main-content ol li {
-  margin-bottom: 0.5em;
-}
-
-/* Blockquotes styling */
+/* Additional DAMA-inspired styles */
 .main-content blockquote {
   border-left: 4px solid #2879d0;
   background: rgba(40, 121, 208, 0.05);
-  padding: 15px;
-  margin: 20px 0;
-  border-radius: 0 6px 6px 0;
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
 }
 
-/* Tables styling */
-.main-content table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 20px 0;
+/* Code blocks */
+.main-content code {
+  background: rgba(40, 121, 208, 0.1);
+  color: #2879d0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
 }
 
-.main-content th,
-.main-content td {
-  border: 1px solid #e1e4e8;
-  padding: 12px;
-  text-align: left;
-}
-
-.main-content th {
-  background: #2879d0;
-  color: white;
-  font-weight: 600;
+/* Images */
+.main-content img {
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  margin: 30px 0;
+  max-width: 100%;
+  height: auto;
 }

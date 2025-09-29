@@ -1,0 +1,107 @@
+--- --- @import "{{ site.theme }}";
+
+/* Custom styles for Sahi's blog with Architect theme */
+
+/* Article metadata styling */
+p strong {
+  color: #2879d0;
+}
+
+/* Category and meta information */
+.post-meta {
+  color: #2879d0;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  padding: 12px;
+  background: rgba(40, 121, 208, 0.08);
+  border-radius: 6px;
+  border-left: 4px solid #2879d0;
+}
+
+/* Images styling */
+img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+/* Code blocks enhancement */
+.highlight {
+  border-radius: 6px;
+  border-left: 4px solid #2879d0;
+}
+
+/* Links in content */
+.main-content a {
+  color: #2879d0;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+  color: #1a5490;
+}
+
+/* Horizontal rules */
+hr {
+  background: linear-gradient(to right, #2879d0, #4a90e2);
+  height: 2px;
+  border: none;
+  margin: 30px 0;
+}
+
+/* Headers in content */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: #2879d0;
+}
+
+/* Ensure consistent styling across all pages */
+.main-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Navigation consistency */
+.main-content a {
+  color: #2879d0;
+  font-weight: 500;
+}
+
+/* List styling consistency */
+.main-content ul li,
+.main-content ol li {
+  margin-bottom: 0.5em;
+}
+
+/* Blockquotes styling */
+.main-content blockquote {
+  border-left: 4px solid #2879d0;
+  background: rgba(40, 121, 208, 0.05);
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Tables styling */
+.main-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.main-content th,
+.main-content td {
+  border: 1px solid #e1e4e8;
+  padding: 12px;
+  text-align: left;
+}
+
+.main-content th {
+  background: #2879d0;
+  color: white;
+  font-weight: 600;
+}

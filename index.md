@@ -1,56 +1,51 @@
 ---
 layout: default
-title: "Bienvenue dans Mon Journal d'Apprentissage"
+title: "Journal d'Apprentissage de Sahi"
 ---
 
-# Hello, je suis Sahi ! 👋
+# DÉCOUVRIR, COMPRENDRE, APPRENDRE, PARTAGER
 
-Bienvenue sur mon blog personnel où je partage ce que j'apprends à travers divers domaines de la connaissance. En tant qu'apprenant curieux de Côte d'Ivoire, j'explore et j'écris sur :
-
-## 📚 Ce que vous trouverez ici
-
-- **Mathématiques** - Des concepts fondamentaux aux sujets avancés
-- **Programmation** - Tutoriels de code, bonnes pratiques et aperçus de projets
-- **Science des Données** - Analyse, apprentissage automatique (Machine Learning) et visualisation de données
-- **Physique** - Comprendre le monde naturel à travers les principes scientifiques
-- **Philosophie** - Réflexions profondes sur l'existence, l'éthique et la nature humaine
-- **Sociologie** - Exploration de la société, de la culture et du comportement humain
-- **Politique Locale** - Perspectives sur la gouvernance et les enjeux sociaux en Côte d'Ivoire
-- Et bien d'autres sujets
-
-## 🌟 Ma Mission
-
-L'apprentissage ne s'arrête jamais, et je crois que le savoir grandit lorsqu'il est partagé. À travers ce blog, mon but est de :
-
-- Documenter mon parcours d'apprentissage à travers plusieurs disciplines
-- Partager des idées qui pourraient aider d'autres apprenants
-- Faire le pont entre différents domaines de la connaissance pour trouver des connexions
-- Contribuer au discours intellectuel, particulièrement d'un point de vue africain
-
-## 📖 Articles Récents
-
-{% for post in site.posts limit: 5 %}
-### [{{ post.title }}]({{ post.url | relative_url }})
-
-**{{ post.date | date: "%d %B %Y" }}**
-{% if post.categories %}
-{% for category in post.categories %}
-*{{ category | upcase }}*
-{% endfor %}
-{% endif %}
-
-{{ post.excerpt | strip_html | truncatewords: 30 }}
-
-[Lire la suite →]({{ post.url | relative_url }})
-
----
-{% endfor %}
-
-## 🔗 Navigation
-
-- [Parcourir par catégorie](/categories)
-- [S'abonner via RSS](/feed.xml)
+*L'apprentissage continu rendu simple, accessible et inspirant pour tous.*
 
 ---
 
-*Suivez mon parcours tandis que j'explore les liens fascinants entre la science, la technologie, la philosophie et la société. Chaque publication est un pas en avant dans la compréhension de notre monde complexe.*
+## 📚 ARTICLES : EXPLORE MES DÉCOUVERTES
+
+Tu trouveras ici mes réflexions, analyses et découvertes à travers différents domaines :
+
+• **Science des données** - Analyses, machine learning et visualisations
+• **Programmation** - Tutoriels pratiques et bonnes pratiques  
+• **Mathématiques** - Concepts expliqués simplement
+• **Physique** - Comprendre le monde qui nous entoure
+• **Philosophie** - Réflexions sur l'existence et la société
+• **Et bien plus encore...**
+
+Chaque article est pensé pour être accessible, pratique et inspirant.
+
+[LIRE LES ARTICLES 🚀](/categories)
+
+---
+
+## 💡 À PROPOS : APPRENDS À ME CONNAÎTRE
+
+Je suis **Sahi Mohamed Francis**, un passionné de connaissances basé en **Côte d'Ivoire**. 
+
+Ce blog est mon espace de partage où je documente mon parcours d'apprentissage continu à travers les sciences, la technologie, la philosophie et bien d'autres domaines.
+
+Ma philosophie ? **Le savoir grandit quand il est partagé.**
+
+[EN SAVOIR PLUS 🚀](/about)
+
+---
+
+## 🤝 COLLABORATION
+
+Tu souhaites échanger, collaborer ou simplement discuter d'un sujet qui te passionne ?
+
+N'hésite pas à me contacter ! J'aime les échanges constructifs et les nouvelles perspectives.
+
+[ME CONTACTER 🚀](mailto:mohamedfrancissahi@gmail.com)
+
+---
+
+*Fait avec ❤️ et [Jekyll](https://jekyllrb.com/) • Par Sahi Mohamed Francis Gonsangbeu*

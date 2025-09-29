@@ -1,61 +1,37 @@
 ---
 layout: default
-title: Categories
+title: "Catégories d'Articles"
 permalink: /categories/
 ---
 
-# Browse by Category
+# EXPLORER PAR DOMAINE
 
-Explorez les posts organisés par différent domaines:
-
-{% assign categories = site.posts | map: 'category' | uniq | sort %}
-
-{% for category in categories %}
-  {% if category %}
-    <h2 id="{{ category | slugify }}">{{ category | upcase }}</h2>
-
-    {% assign category_posts = site.posts | where: 'category', category %}
-    <ul class="post-list">
-      {% for post in category_posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h3>
-          {% if post.excerpt %}
-            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
+*Découvrez mes articles organisés par thèmes et domaines d'expertise.*
 
 ---
 
-## Quick Links to Categories
+{% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
 
-{% for category in categories %}
-  {% if category %}
-- [{{ category | upcase }}](#{{ category | slugify }}) ({{ site.posts | where: 'category', category | size }} posts)
+{% for category in all_categories %}
+  {% if category != "" %}
+## 📂 {{ category | upcase }}
+
+{% assign posts_in_category = site.posts | where: 'categories', category %}
+{% for post in posts_in_category %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+**{{ post.date | date: "%d %B %Y" }}** • *{{ post.author | default: "Sahi MFG" }}*
+
+{{ post.excerpt | strip_html | truncatewords: 25 }}
+
+[Lire l'article 🚀]({{ post.url | relative_url }})
+
+---
+{% endfor %}
   {% endif %}
 {% endfor %}
 
-<style>
-.post-list li {
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid #eee;
-}
+[← Retour à l'accueil 🚀](/)
 
-.post-list li:last-child {
-  border-bottom: none;
-}
+---
 
-h2 {
-  color: #2a7ae4;
-  margin-top: 2em;
-  padding-bottom: 0.5em;
-  border-bottom: 2px solid #2a7ae4;
-}
-</style>
+*Vous ne trouvez pas ce que vous cherchez ? [Contactez-moi 🚀](mailto:mohamedfrancissahi@gmail.com) pour suggérer de nouveaux sujets !*
